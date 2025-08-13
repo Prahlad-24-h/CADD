@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Balance & Loan - ABC Bank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Balance & Loan</h1>
+    <h2>Current Balance: ₹<span id="balance">0</span></h2>
+
+    <label for="loanAmount">Loan Amount:</label>
+    <input type="number" id="loanAmount" placeholder="Enter loan amount">
+
+    <button onclick="applyLoan()">Apply for Loan</button>
+    <p id="loanStatus">Loan Status: Not Applied</p>
+
+    <a href="summary.html" class="btn">View Account Summary</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
